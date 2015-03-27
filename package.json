@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "express": "2.5.4",
-    "jade": ">= 0.0.1",
+    "jade": "~1.9.2",
     "mongoose": "~2.4.10"
   },
   "devDependencies": {
-    "mocha": "0.10.0",
-    "should": "0.5.1",
+    "mocha": "~2.2.1",
+    "chai": "~2.2.0",
     "gulp-shell": "~0.4.0"
   }
 }
