@@ -9,6 +9,7 @@ gulp.task 'default', ->
 gulp.task 'cofserver', ->
   gulp.src('').pipe shell([ 'coffee app.coffee' ])
 
+gulp.task 'test', [ 'mocha' ]
 gulp.task 'mocha', ->
   gulp.src('').pipe shell(['mocha --compilers coffee:coffee-script/register -R spec'])
 
